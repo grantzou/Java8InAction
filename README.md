@@ -3,28 +3,30 @@ Java8InAction
 
 This repository contains all the source code for the examples and quizzes in the book Java 8 in Action: Lambdas, Streams and functional-style programming.
 
-You can purchase the early access here: [http://manning.com/urma/](http://manning.com/urma/)
-
-We are very keen to hear your feedback and improve the book based on your comments!
+You can purchase the book here: [http://manning.com/urma/](http://manning.com/urma/) or on Amazon
 
 The source code for all examples can be found in the directory [src/main/java/lambdasinaction](https://github.com/java8/Java8InAction/tree/master/src/main/java/lambdasinaction)
 
 * Chapter 1: Java 8: why should you care?
 * Chapter 2: Passing code with behavior parameterization
 * Chapter 3: Lambda expressions
-* Chapter 4: Processing data with streams
-* Chapter 5: Collecting data with streams
-* Chapter 6: Parallel data processing and performance
-* Chapter 7: Refactoring, testing, debugging
-* Chapter 8: Default methods
-* Chapter 9: Optional: a better alternative to null
-* Chapter 10: CompletableFuture: composable asynchronous programming
-* Chapter 11: New Date and Time API
-* Chapter 12: Thinking functionally
-* Chapter 13: Functional programming techniques
-* Chapter 14: Blending OOP and FP: comparing Java 8 and Scala
-* Chapter 15: Conclusions and "where next" for Java
-
+* Chapter 4: Working with Streams
+* Chapter 5: Processing data with streams
+* Chapter 6: Collecting data with streams
+* Chapter 7: Parallel data processing and performance
+* Chapter 8: Refactoring, testing, debugging
+* Chapter 9: Default methods
+* Chapter 10: Using Optional as a better alternative to null
+* Chapter 11: CompletableFuture: composable asynchronous programming
+* Chapter 12: New Date and Time API
+* Chapter 13: Thinking functionally
+* Chapter 14: Functional programming techniques
+* Chapter 15: Blending OOP and FP: comparing Java 8 and Scala
+* Chapter 16: Conclusions and "where next" for Java
+* Appendix A: Miscellaneous language updates
+* Appendix B: Miscellaneous library updates
+* Appendix C: Performing multiple operations in parallel on a Stream
+* Appendix D: Lambdas and JVM bytecode
 We will update the repository as we update the book. Stay tuned!
 
 ### Make sure to have JDK8 installed
@@ -50,3 +52,8 @@ $ java lambdasinaction/chap1/FilteringApples
 
 
 Alternatively you can compile the files manually inside the directory src/main/java
+
+You can also import the project in your favorite IDE:
+    * In IntelliJ use "File->Open" menu and navigate to the folder where the project resides
+    * In Eclipse use "File->Import->Existing Maven Projects" (also modify "Reduntant super interfaces" to report as Warnings instead of Errors
+    * In Netbeans use "File->Open Project" menu

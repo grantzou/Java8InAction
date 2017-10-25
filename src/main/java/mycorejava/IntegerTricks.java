@@ -1,7 +1,5 @@
 package mycorejava;
 
-import static java.lang.System.out;
-
 public class IntegerTricks {
 
     public static void main(String... args) {
@@ -11,6 +9,6 @@ public class IntegerTricks {
         Integer ib1 = i1;
         Integer ib2 = 1;
 
-        out.println((i1 == io) + " " + (ib1 == ib2));
+        System.out.println((i1 == io) + " " + (ib1 == ib2));
     }
 }
